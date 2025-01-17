@@ -1,0 +1,72 @@
+/* Reset y fuentes */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem 2rem;
+    background-color: #F6F3F3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .logo img {
+    width: 50px; /* Ajusta el ancho */
+    height: auto; /* Mantén la proporción */
+    object-fit: contain; /* Asegura que se ajuste al contenedor */
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-menu li a:hover {
+    color: #002aff; /* Color naranja */
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #000;
+    margin-top: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  .team-photo {
+    margin-top: 2rem;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, rgba(255, 220, 0, 0.2), rgba(255, 0, 0, 0.2));
+    padding: 5px;
+  }
+
+
+  
