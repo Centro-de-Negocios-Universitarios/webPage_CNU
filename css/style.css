@@ -7,7 +7,7 @@ body, h1, p, ul, li {
   }
   body {
     background-color: #ffffff;
-    color: #333;
+    color: #000000;
   }
   
   /* Navbar */
@@ -37,7 +37,7 @@ body, h1, p, ul, li {
   
   .nav-menu li a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     font-style: "Poppins", serif;
     font-size: 1rem;
     font-weight: 00;
@@ -75,7 +75,107 @@ body, h1, p, ul, li {
     padding: 5px;
   }
 
-  
+    /* Proyectos en Desarrollo */
+.projects-development {
+  padding: 2rem 1rem;
+  background-color: #ffffff;
+}
+
+.projects-development h2 {
+  font-family: "Poppins", serif;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.projects-development p {
+  text-align: center;
+  margin: 0 auto 2rem;
+  margin-top: 3rem;
+  max-width: 600px;
+  color: #202020;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.project-image {
+  flex: 1;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.project-description {
+  flex: 2;
+}
+
+.project-description h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.project-description p {
+  color: #555;
+}
+
+/* Proyectos Destacados */
+.projects-featured {
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+
+.projects-featured h2 {
+  font-family: "Poppins", serif;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+}
+
+.project-featured {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.project-featured:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.project-featured .project-image {
+  flex: 1;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.project-featured .project-description {
+  flex: 2;
+}
+
+.project-featured h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(0, 0, 0)707;
+}
+
+.project-featured p {
+  color: #555;
+}
+
+/* History Timeline */
 
   .history {
     background-color: #14154F;
@@ -89,8 +189,11 @@ body, h1, p, ul, li {
   }
   
   .timeline-header {
+    font-family: "Poppins";
+    font-weight: 700;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3.3rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
   }
   
@@ -181,95 +284,3 @@ body, h1, p, ul, li {
     }
   }
 
-  /* Proyectos en Desarrollo */
-.projects-development {
-  padding: 2rem 1rem;
-  background-color: #f4f4f4;
-}
-
-.projects-development h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #444;
-}
-
-.projects-development p {
-  text-align: center;
-  margin: 0 auto 2rem;
-  max-width: 600px;
-  color: #666;
-}
-
-.project {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.project-image {
-  flex: 1;
-  height: 150px;
-  background-color: #ddd;
-  border-radius: 10px;
-}
-
-.project-description {
-  flex: 2;
-}
-
-.project-description h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-.project-description p {
-  color: #555;
-}
-
-/* Proyectos Destacados */
-.projects-featured {
-  padding: 2rem 1rem;
-  background-color: #fff;
-}
-
-.projects-featured h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #444;
-}
-
-.project-featured {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.project-featured:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-.project-featured .project-image {
-  flex: 1;
-  height: 150px;
-  background-color: #ddd;
-  border-radius: 10px;
-}
-
-.project-featured .project-description {
-  flex: 2;
-}
-
-.project-featured h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-.project-featured p {
-  color: #555;
-}
